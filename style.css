@@ -1,0 +1,18 @@
+body {
+    margin: 100px 150px;
+}
+
+#profilepic {
+    width: 400px;
+    float: right;
+}
+
+#icon {
+    width: 30px;
+    margin-top: 420px;
+    margin-left: 50px;
+    position: absolute;
+    right: 350px;
+    float: right;
+    display: inline;
+}

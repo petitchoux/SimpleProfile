@@ -30,5 +30,16 @@ a:hover {
 
 .bio {
     width: 50%;
-    margin: 0 auto;
+    margin: 300 auto;
+    margin-left: 100px;
+    padding-right: 90px;
+    padding-top: 200px;
+}
+
+img {
+    width: 375px;
+    height: auto;
+    float: right;
+    margin-right: 15%;
+    border-radius: 20px;
 }

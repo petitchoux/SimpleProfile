@@ -1,5 +1,5 @@
 body {
-    margin: 100px 150px;
+    margin: 20% auto;
 }
 
 #profilepic {
@@ -15,4 +15,111 @@ body {
     right: 350px;
     float: right;
     display: inline;
+}
+
+.heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 7px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Gradient transparent - color - transparent */
+
+hr {
+    width: 50%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.custom-nav {
+    word-spacing: 3em;
+}
+
+@keyframes shake {
+	25% {
+		transform: rotate(calc(var(--angle) * -1));
+	}
+
+	50% {
+		transform: rotate(var(--angle));
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.display {
+	display: grid;
+	grid-template-columns: 50% 50%;
+    grid-gap: 0.1em;
+}
+
+.HOVER {
+	--width: 100%;
+	--time: 0.7s;
+	position: relative;
+	display: inline-block;
+	height: 2.4em;
+    padding: 0.5em;
+    /* padding-left: 80%; */
+
+	color: #222;
+	background: white;
+    overflow: hidden;
+}
+
+.left .HOVER {
+    width: 100%;
+    padding-left: 80%;
+}
+
+.right .HOVER {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.HOVER text {
+	position: relative;
+	z-index: 5;
+    transition: color var(--time);
+}
+
+.HOVER:hover text {
+	color: white;
+}
+.HOVER span {
+	border-radius: 100%;
+	position: absolute;
+	display: block;
+	content: "";
+	z-index: 0;
+	width: 0;
+	height: 0;
+
+	background: #222;
+	transform: translate(-50%, -50%);
+	transition: width var(--time), padding-top var(--time);
+}
+
+.HOVER:hover span {
+	width: calc(var(--width)*2.25);
+	padding-top: calc(var(--width)* 2.25);
+}
+
+.animated {
+	--angle: 5deg;
+	animation: shake 0.3s;
 }

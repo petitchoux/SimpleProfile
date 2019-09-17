@@ -1,0 +1,29 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.custom-nav {
+    margin: 2% auto;
+    text-align: center;
+    word-spacing: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}

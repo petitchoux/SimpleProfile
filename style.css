@@ -2,21 +2,6 @@ body {
     margin: 20% auto;
 }
 
-#profilepic {
-    width: 400px;
-    float: right;
-}
-
-#icon {
-    width: 30px;
-    margin-top: 420px;
-    margin-left: 50px;
-    position: absolute;
-    right: 350px;
-    float: right;
-    display: inline;
-}
-
 .heading {
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 7px;
@@ -37,10 +22,6 @@ hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-.custom-nav {
-    word-spacing: 3em;
 }
 
 @keyframes shake {
@@ -74,7 +55,6 @@ a:link {
 	display: inline-block;
 	height: 2.4em;
     padding: 0.5em;
-    /* padding-left: 80%; */
 
 	color: #222;
 	background: white;

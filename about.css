@@ -48,18 +48,11 @@ a:hover {
     color: rgb(75, 75, 75);
 }
 
-.bio {
-    width: 50%;
-    margin: 300 auto;
-    margin-left: 100px;
-    padding-right: 90px;
-    padding-top: 200px;
+#bio {
+    margin: 0 30px;
 }
 
-img {
-    width: 375px;
-    height: auto;
-    float: right;
-    margin-right: 15%;
-    border-radius: 20px;
+.contact-icons {
+    font-size: 2rem;
+    margin: 0 20px;
 }

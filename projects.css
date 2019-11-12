@@ -1,6 +1,5 @@
 body {
-    width: 80%;
-    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .custom-nav {
@@ -26,4 +25,23 @@ a:hover {
     padding-bottom: .3em;
     text-decoration: none;
     color: rgb(75, 75, 75);
+}
+
+.blurb h2 {
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.content {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+    .blurb h2 {
+        font-size: 2rem;
+    }
 }

@@ -2,12 +2,6 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.custom-nav {
-    margin: 2% auto;
-    text-align: center;
-    word-spacing: 50px;
-}
-
 a:link {
     text-decoration: none;
 }
@@ -37,7 +31,32 @@ a:hover {
 }
 
 .content {
+    margin-top: 70px;
     margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: .7em;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+.navbar.scrolled {
+    background: #ffffff;
+    transition: background 500ms;
+}
+
+.github-icon-projs {
+    font-size: 2.5rem;
 }
 
 @media (max-width: 1200px) {

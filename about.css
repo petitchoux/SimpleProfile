@@ -1,12 +1,25 @@
 body {
-    width: 80%;
-    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.custom-nav {
-    margin: 2% auto;
-    text-align: center;
-    word-spacing: 50px;
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: .7em;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+.navbar.scrolled {
+    background: #ffffff;
+    transition: background 500ms;
 }
 
 a:link {

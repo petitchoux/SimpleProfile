@@ -11,6 +11,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/d0419ec70d.js" crossorigin="anonymous"></script>
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="projects.css">
 
@@ -18,9 +21,28 @@
   </head>
 
   <body>
+    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
+      <a href="index.html" class="navbar-brand">JOYCE HUANG</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <p class="custom-nav"><a href="index.html">Home</a>
-    <a href="about.html">About</a></p>
+    <!-- <p class="custom-nav"><a href="index.html">Home</a>
+    <a href="about.html">About</a></p> -->
 
     <section class="container-fluid px-0">
       <div class="row align-items-center content">
@@ -34,7 +56,7 @@
               <hr>
               <small class="text-muted">Swift, Firebase, Firestore, Google Maps, Location API</small>
               <p class="lead">Litterly is an iOS application made to encourage communities to come together to clean up the environment by allowing users to report locations of trash and to schedule meetups. By attending a meetup, the user will be awarded points.</p>
-              <a href="https://github.com/ajx3-workshop/litterly"><img src="images/githubicon.png" alt="Github Logo" class="d-none d-lg-inline"></a>
+              <a href="https://github.com/ajx3-workshop/litterly"><i class="fab fa-github github-icon-projs"></i></a>
             </div>
           </div>
         </div>
@@ -47,7 +69,7 @@
               <hr>
               <small class="text-muted">HTML, CSS, JavaScript, jQuery, Bootstrap, Fotorama</small>
               <p class="lead">plattr is an interactive web application inspired by Tinder's UI to make a statement on how easy it is for society to consume media at a fast pace and its effects. Similar to Tinder, plattr invites people to swipe through a series of photos of food. The viewer is able to stop at each one to learn more about the process of making them or move on to the next one.</p>
-              <a href="https://github.com/petitchoux/plattr"><img src="images/githubicon.png" alt="Github Logo" class="d-none d-lg-inline"></a>
+              <a href="https://github.com/petitchoux/plattr"><i class="fab fa-github github-icon-projs"></i></a>
             </div>
           </div>
         </div>
@@ -67,7 +89,7 @@
                 <hr>
                 <small class="text-muted">PHP, SQL, JavaScript, CSS, HTML</small>
                 <p class="lead">Messenger is a chatting web application that allows users to create an account and log in, search for other users, and send and receive messages.</p>
-                <a href="https://github.com/petitchoux/Messenger"><img src="images/githubicon.png" alt="Github Logo" class="d-none d-lg-inline"></a>
+                <a href="https://github.com/petitchoux/Messenger"><i class="fab fa-github github-icon-projs"></i></a>
               </div>
             </div>
           </div>
@@ -79,5 +101,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
